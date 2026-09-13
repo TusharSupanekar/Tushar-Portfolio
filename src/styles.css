@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+:root { color-scheme: dark; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: #08111f; }
+* { box-sizing: border-box; }
+a { color: inherit; }
+::selection { background: #69e0c1; color: #08111f; }
+.section-shell { position: relative; z-index: 1; width: min(1160px, calc(100% - 48px)); margin: 0 auto; }
+.eyebrow { color: #69e0c1; letter-spacing: .14em; text-transform: uppercase; font-size: .74rem; font-weight: 700; }
+.grid-overlay { background-image: linear-gradient(rgba(141, 181, 188, .055) 1px, transparent 1px), linear-gradient(90deg, rgba(141, 181, 188, .055) 1px, transparent 1px); background-size: 44px 44px; }
+.reveal { animation: reveal .8s ease both; }
+@keyframes reveal { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 700px) { .section-shell { width: min(100% - 32px, 560px); } }
