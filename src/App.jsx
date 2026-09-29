@@ -14,6 +14,7 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import MenuIcon from "@mui/icons-material/Menu";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import DownloadIcon from "@mui/icons-material/Download";
@@ -995,6 +996,7 @@ function App() {
           </Container>
         </Box>
       </Box>
+      <SpeedInsights />
     </>
   );
 }
