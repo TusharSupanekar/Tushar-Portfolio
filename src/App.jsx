@@ -70,18 +70,6 @@ const projects = [
   },
   {
     number: "03",
-    title: "Customer Churn Prediction",
-    label: "Machine learning",
-    accent: "#90b6ff",
-    description:
-      "An explainable prediction system that surfaces at-risk customers and turns model outputs into useful business signals.",
-    outcome:
-      "91% AUC with XGBoost · SHAP feature explanations · 7K records analyzed",
-    tags: ["Python", "XGBoost", "SHAP", "Pandas", "scikit-learn"],
-    github: "https://github.com/TusharSupanekar",
-  },
-  {
-    number: "04",
     title: "Expense Tracker",
     label: "Full-stack product",
     accent: "#d69cff",
